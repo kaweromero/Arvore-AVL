@@ -136,7 +136,7 @@ public class AvlTree {
         if (p!=null && p.key==el) return prev;
         return null;
     }
-    /* método de autoria de Leonardo Zandoná - 2006/2 */
+    
     public void displayTree() {
     	if (isEmpty()){
     		System.out.println("Árvore vazia!");
